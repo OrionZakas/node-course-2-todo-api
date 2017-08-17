@@ -1,7 +1,6 @@
 {
-  "name": "node-todo-api",
+  "name": "todo-api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node server/server.js",
@@ -16,6 +15,7 @@
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
+    "lodash": "^4.17.4",
     "mongodb": "^2.2.5",
     "mongoose": "^4.5.9"
   },
@@ -24,5 +24,14 @@
     "mocha": "^3.0.2",
     "nodemon": "^1.10.2",
     "supertest": "^2.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrionZakas/node-course-2-todo-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OrionZakas/node-course-2-todo-api/issues"
+  },
+  "homepage": "https://github.com/OrionZakas/node-course-2-todo-api#readme",
+  "description": ""
 }
