@@ -6,8 +6,10 @@ var {mongoose} = require('./db/mongoose');
 var {Todo} = require('./models/todo');
 var {User} = require('./models/user');
 
-var app = express();
-const port = process.env.PORT || 3000;
+var server = app.listen(process.env.PORT || 3000, function () {
+  const port = server.address().port;
+  console.log("Express is working on port " + port);
+});
 
 app.use(bodyParser.json());
 
